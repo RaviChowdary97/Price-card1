@@ -1,3 +1,71 @@
-body {
-  background-color: #31abfe;
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.card-header h3 {
+  margin: 0;
+}
+
+.card-header h4 {
+  margin: 10px 0 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-body li {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.card-body li i {
+  margin-right: 10px;
+}
+
+.card-footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-muted {
+  color: #b0b0b0;
 }
